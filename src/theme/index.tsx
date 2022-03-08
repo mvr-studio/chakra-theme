@@ -1,6 +1,11 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const theme = extendTheme({
+  fonts: {
+    body: '"Inter", system-ui, sans-serif',
+    heading: '"Inter", Georgia, serif',
+    mono: '"Inter", Menlo, monospace'
+  },
   colors: {
     primary: {
       50: '#dcfff6',
