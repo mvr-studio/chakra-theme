@@ -1,0 +1,43 @@
+{
+  "name": "@mvr-studio/chakra-theme",
+  "author": "Tomasz Marciniak <tomek@mvr.studio>",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": "^1.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
+    "react": "^17",
+    "react-dom": "^17"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-docs": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
